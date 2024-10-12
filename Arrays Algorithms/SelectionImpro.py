@@ -1,3 +1,5 @@
+#this is the improved version of selection sort 
+
 myArr = [64,34,25,12,22,11,90,5]
 n = len(myArr)
 
