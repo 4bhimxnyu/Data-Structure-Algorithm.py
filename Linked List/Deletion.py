@@ -32,7 +32,7 @@ def Deletion(head,nodetoDelete):
         return head.next
     
     currentNode = head
-    while currentNode.next and currentNode.next != nodetoDelete:
+    while currentNode.next != nodetoDelete:
         currentNode = currentNode.next
 
     if currentNode.next is None:
