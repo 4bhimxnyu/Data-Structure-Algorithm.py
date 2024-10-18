@@ -45,5 +45,11 @@ stack.append('Code')
 # to learn the size of the stack we will use the python built in method
 # len() function is used to get the size of the stack.
 
-size = len(stack)
-print(size)
+#size = len(stack)
+#print(size)
+count = 0
+i = 1
+while(i == stack[-1]):
+    count += 1
+
+print(count)
