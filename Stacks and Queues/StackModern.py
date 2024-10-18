@@ -24,7 +24,7 @@ stack.append('Code')
 
 # now we will use the peek function for the code 
 
-topElement = stack[len(stack)-1]
+#topElement = stack[len(stack)-1]
 #print(topElement)
 
 # now we will check if the stack is empty or not
@@ -37,9 +37,13 @@ topElement = stack[len(stack)-1]
 #now we will check if the stack is empty by using if and else conditon
 # if the stack is empty then it will print the stack is empty otherwise it will print the stack
 
-if(topElement):
-    print("the stack is not empty")
-else:
-    print("the stack is empty")
+#if(topElement):
+   # print("the stack is not empty")
+#else:
+   # print("the stack is empty")
 
+# to learn the size of the stack we will use the python built in method
+# len() function is used to get the size of the stack.
 
+size = len(stack)
+print(size)
