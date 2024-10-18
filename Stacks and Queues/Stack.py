@@ -31,10 +31,31 @@ myStack.push("loves")
 myStack.push("to")
 myStack.push("code")
 
-print(myStack.stack)
+print(myStack.stack)   # original  stack
+
 
 myStack.pop()
 
 myStack.push("dance")
 print(myStack.stack)
+
+a = myStack.peek()
+print(a)
     
+myStack.pop()
+myStack.pop()
+myStack.pop()
+myStack.pop()
+
+b = myStack.isEmpty()
+print(b)
+
+myStack.push("james")
+myStack.push("is")
+myStack.push("back")
+myStack.push("after")
+myStack.push("the")
+myStack.push("vacation")
+
+c = myStack.size()
+print(c)
