@@ -24,14 +24,22 @@ stack.append('Code')
 
 # now we will use the peek function for the code 
 
-#topElement = stack[len(stack)-1]
+topElement = stack[len(stack)-1]
 #print(topElement)
 
 # now we will check if the stack is empty or not
 # if the stack is empty then it will return true otherwise it will return false.
+# this is the standard way of doing the code
 
-isEmpty = not bool(stack)
-print(isEmpty)
+#isEmpty = not bool(stack)
+#print(isEmpty)
 
+#now we will check if the stack is empty by using if and else conditon
+# if the stack is empty then it will print the stack is empty otherwise it will print the stack
+
+if(topElement):
+    print("the stack is not empty")
+else:
+    print("the stack is empty")
 
 
