@@ -1,26 +1,16 @@
-#creating an empty list 
+my_hash_set = [None,'Jones',None,'Lisa',None,'Bob',None,'Siri','Pete',None]
 
-emptyHash = [None ,None ,None ,None ,None ,None ,None ,None ,None ,None ]
+def hash_function(value):
+    sum_of_chars = 0
+    for char in value:
+        sum_of_chars += ord(char)
 
-def hashFunction(value):
-    #converting the value to a string to be able to use the hash function
-    sum_of_char = 0
-    for char in str(value):
-        sum_of_char += ord(char)
+    return sum_of_chars % 10
+    
+def contains(name):
+    index = hash_function(name)
+    return my_hash_set[index] == name
 
-    return sum_of_char % 10
+print("'Pete' is in the Hash Set:",contains('Pete'))
 
-def indexChanger(name):
-    #converting the name to a string to be able to use the hash function
-    index = hashFunction(name)
-    return emptyHash[index] == name
-
-name1 = str(input("enter the name: "))
-name2 = str(input("enter the name: "))
-name3 = str(input("enter the name: "))
-
-indexChanger(name1)
-indexChanger(name2)
-indexChanger(name3)
-
-print(emptyHash)
+#Python
