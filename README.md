@@ -114,7 +114,7 @@ Contributions are welcome! If you have improvements, bug fixes, or additional ex
 ---
 
 ## 🧑‍💻 About the Author
-Hi! I'm Abhimanyu Pratap Singh]((https://github.com/4bhimxnyu)), a passionate developer and educator committed to helping others learn coding and problem-solving. Feel free to connect with me for any questions or feedback!
+Hi! I'm Abhimanyu Pratap Singh](https://github.com/4bhimxnyu), a passionate developer and educator committed to helping others learn coding and problem-solving. Feel free to connect with me for any questions or feedback!
 
 ---
 
